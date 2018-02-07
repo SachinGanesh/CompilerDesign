@@ -2,7 +2,7 @@
 A mini project for understanding the science of building Compiler; (Compiler Design) (VTU - BE - 6th Semester) (2015)
 ------
 
-I built this project to understand the structure of a compiler. I have completed only the first (Lexical Analyzer) out of 7 phases of Compiler Design. Feel free to clone this project and complete it if you are interested.
+I built this project to understand the structure of a compiler. I have completed only first (Lexical Analyzer) out of the 7 phases of Compiler Design. Feel free to clone this project and complete it if you are interested.
 
 ## Lexical Analysis
 <img src="images/Inkedcompiler_phases.jpg" width="300px">
@@ -11,6 +11,8 @@ The first phase of compiler works as a text scanner. This phase scans the source
 ```
 <token-name, attribute-value>
 ```
+
+Symbol Table & String table will also be genererated along with lexemes.
 
 ## Sample Input
 Give any C program snippet as input
